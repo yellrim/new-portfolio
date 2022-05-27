@@ -1,10 +1,6 @@
 @charset 'utf-8';
 /* parallax */
-/* .par-box{
-    width: 100%;
-    height: 100vh;
-    background: #fff;
-} */
+
 .wave{
     position: absolute;
     bottom: 0;
@@ -178,9 +174,9 @@ html{
 }
 section{
     height: 100vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 section:nth-child(odd){
     background: #999;
@@ -297,9 +293,8 @@ section:nth-child(odd){
 
 /* portfolio */
 .portfolio{
+    width: 100%;
     position: relative;
-    width: 1000px;
-    padding: 50px;
     margin: 100px auto;
 }
 .portfolio .container h2{
@@ -309,17 +304,65 @@ section:nth-child(odd){
     text-align: center;
     font-size: 52px;
 }
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -170px;
+}
 .portfolio .container .portfolio-box .img-box{
     position: relative;
+    float: left;
 }
 .portfolio .container .portfolio-box .img-box img:nth-child(1){
-    width: 500px;
+    width: 700px;
     height: auto;
 }
-/* .portfolio .container .portfolio-box .img-box img:last-child{
+.portfolio .container .portfolio-box .portfolio-btn{
+    float: left;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+#history{
+    display: none;
+    width: 40%;
+    margin: 150px;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+.history-box h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20PX;
+}
+.btn{
+    position: relative;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #3e3f46;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #2982b9;
+}
+.btn::before{
+    content: '';
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120px;
-    height: auto;
-} */
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,#fff,transparent);
+    transition: 0.8s;
+}
+.btn:hover::before{
+    left: 100%;
+}
