@@ -4,4 +4,4 @@
 
 [new-portfolio](https://yellrim.github.io/new-portfolio/)
 
-[![포트폴리오 이미지](https://github.com/yellrim/new-portfolio/blob/main/README.png)
+![포트폴리오 이미지](https://github.com/yellrim/new-portfolio/blob/main/README.png)
