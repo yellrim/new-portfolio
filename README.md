@@ -4,4 +4,4 @@
 
 [new-portfolio](https://yellrim.github.io/new-portfolio/)
 
-[![빽다방이미지](https://github.com/yellrim/paikdabang/blob/main/images/mmain_sec2.jpg?raw=true)](https://yellrim.github.io/paikdabang/)
+[![포트폴리오 이미지](https://github.com/yellrim/new-portfolio/blob/main/README.png)
