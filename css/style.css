@@ -1,4 +1,11 @@
 @charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .clear::after{
     content: '';
     display: block;
@@ -198,6 +205,22 @@ body {
                  0 0 80px #fff,
                  0 0 120px #fff;
     }
+}
+/* name */
+.name span{
+    position: absolute;
+    right: 13.1%;
+    bottom: 61%;
+    font-size: 24px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.name hr{
+    position: absolute;
+    right: 14%;
+    bottom: 0%;
+    border-left : 1px solid #eee;
+    height : 60%;
 }
 
 /* smooth scroll */
@@ -448,6 +471,7 @@ section:nth-child(odd){
     top: 0;
     right: 2%;
     color: #1f5378;
+    font-family: none;
     font-size: 55px;
     cursor: pointer;
 }
